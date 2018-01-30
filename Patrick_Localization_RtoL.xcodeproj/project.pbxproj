@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AD38D320203E5100987428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AD38D220203E5100987428 /* AppDelegate.swift */; };
+		12AD38D520203E5100987428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AD38D420203E5100987428 /* ViewController.swift */; };
+		12AD38D820203E5100987428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AD38D620203E5100987428 /* Main.storyboard */; };
+		12AD38DA20203E5100987428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AD38D920203E5100987428 /* Assets.xcassets */; };
+		12AD38DD20203E5100987428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AD38DB20203E5100987428 /* LaunchScreen.storyboard */; };
+		12AD38E820203E5200987428 /* Patrick_Localization_RtoLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AD38E720203E5200987428 /* Patrick_Localization_RtoLTests.swift */; };
+		12AD38F320203E5200987428 /* Patrick_Localization_RtoLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AD38F220203E5200987428 /* Patrick_Localization_RtoLUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12AD38E420203E5200987428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12AD38C720203E5100987428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12AD38CE20203E5100987428;
+			remoteInfo = Patrick_Localization_RtoL;
+		};
+		12AD38EF20203E5200987428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12AD38C720203E5100987428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12AD38CE20203E5100987428;
+			remoteInfo = Patrick_Localization_RtoL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12AD38CF20203E5100987428 /* Patrick_Localization_RtoL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patrick_Localization_RtoL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AD38D220203E5100987428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12AD38D420203E5100987428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12AD38D720203E5100987428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12AD38D920203E5100987428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12AD38DC20203E5100987428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12AD38DE20203E5100987428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12AD38E320203E5200987428 /* Patrick_Localization_RtoLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Patrick_Localization_RtoLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AD38E720203E5200987428 /* Patrick_Localization_RtoLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patrick_Localization_RtoLTests.swift; sourceTree = "<group>"; };
+		12AD38E920203E5200987428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12AD38EE20203E5200987428 /* Patrick_Localization_RtoLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Patrick_Localization_RtoLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AD38F220203E5200987428 /* Patrick_Localization_RtoLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patrick_Localization_RtoLUITests.swift; sourceTree = "<group>"; };
+		12AD38F420203E5200987428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12AD38CC20203E5100987428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AD38E020203E5200987428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AD38EB20203E5200987428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12AD38C620203E5100987428 = {
+			isa = PBXGroup;
+			children = (
+				12AD38D120203E5100987428 /* Patrick_Localization_RtoL */,
+				12AD38E620203E5200987428 /* Patrick_Localization_RtoLTests */,
+				12AD38F120203E5200987428 /* Patrick_Localization_RtoLUITests */,
+				12AD38D020203E5100987428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12AD38D020203E5100987428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12AD38CF20203E5100987428 /* Patrick_Localization_RtoL.app */,
+				12AD38E320203E5200987428 /* Patrick_Localization_RtoLTests.xctest */,
+				12AD38EE20203E5200987428 /* Patrick_Localization_RtoLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12AD38D120203E5100987428 /* Patrick_Localization_RtoL */ = {
+			isa = PBXGroup;
+			children = (
+				12AD38D220203E5100987428 /* AppDelegate.swift */,
+				12AD38D420203E5100987428 /* ViewController.swift */,
+				12AD38D620203E5100987428 /* Main.storyboard */,
+				12AD38D920203E5100987428 /* Assets.xcassets */,
+				12AD38DB20203E5100987428 /* LaunchScreen.storyboard */,
+				12AD38DE20203E5100987428 /* Info.plist */,
+			);
+			path = Patrick_Localization_RtoL;
+			sourceTree = "<group>";
+		};
+		12AD38E620203E5200987428 /* Patrick_Localization_RtoLTests */ = {
+			isa = PBXGroup;
+			children = (
+				12AD38E720203E5200987428 /* Patrick_Localization_RtoLTests.swift */,
+				12AD38E920203E5200987428 /* Info.plist */,
+			);
+			path = Patrick_Localization_RtoLTests;
+			sourceTree = "<group>";
+		};
+		12AD38F120203E5200987428 /* Patrick_Localization_RtoLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12AD38F220203E5200987428 /* Patrick_Localization_RtoLUITests.swift */,
+				12AD38F420203E5200987428 /* Info.plist */,
+			);
+			path = Patrick_Localization_RtoLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12AD38CE20203E5100987428 /* Patrick_Localization_RtoL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AD38F720203E5200987428 /* Build configuration list for PBXNativeTarget "Patrick_Localization_RtoL" */;
+			buildPhases = (
+				12AD38CB20203E5100987428 /* Sources */,
+				12AD38CC20203E5100987428 /* Frameworks */,
+				12AD38CD20203E5100987428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Patrick_Localization_RtoL;
+			productName = Patrick_Localization_RtoL;
+			productReference = 12AD38CF20203E5100987428 /* Patrick_Localization_RtoL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12AD38E220203E5200987428 /* Patrick_Localization_RtoLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AD38FA20203E5200987428 /* Build configuration list for PBXNativeTarget "Patrick_Localization_RtoLTests" */;
+			buildPhases = (
+				12AD38DF20203E5200987428 /* Sources */,
+				12AD38E020203E5200987428 /* Frameworks */,
+				12AD38E120203E5200987428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12AD38E520203E5200987428 /* PBXTargetDependency */,
+			);
+			name = Patrick_Localization_RtoLTests;
+			productName = Patrick_Localization_RtoLTests;
+			productReference = 12AD38E320203E5200987428 /* Patrick_Localization_RtoLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12AD38ED20203E5200987428 /* Patrick_Localization_RtoLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AD38FD20203E5200987428 /* Build configuration list for PBXNativeTarget "Patrick_Localization_RtoLUITests" */;
+			buildPhases = (
+				12AD38EA20203E5200987428 /* Sources */,
+				12AD38EB20203E5200987428 /* Frameworks */,
+				12AD38EC20203E5200987428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12AD38F020203E5200987428 /* PBXTargetDependency */,
+			);
+			name = Patrick_Localization_RtoLUITests;
+			productName = Patrick_Localization_RtoLUITests;
+			productReference = 12AD38EE20203E5200987428 /* Patrick_Localization_RtoLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12AD38C720203E5100987428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = pratik;
+				TargetAttributes = {
+					12AD38CE20203E5100987428 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					12AD38E220203E5200987428 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12AD38CE20203E5100987428;
+					};
+					12AD38ED20203E5200987428 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12AD38CE20203E5100987428;
+					};
+				};
+			};
+			buildConfigurationList = 12AD38CA20203E5100987428 /* Build configuration list for PBXProject "Patrick_Localization_RtoL" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12AD38C620203E5100987428;
+			productRefGroup = 12AD38D020203E5100987428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12AD38CE20203E5100987428 /* Patrick_Localization_RtoL */,
+				12AD38E220203E5200987428 /* Patrick_Localization_RtoLTests */,
+				12AD38ED20203E5200987428 /* Patrick_Localization_RtoLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12AD38CD20203E5100987428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AD38DD20203E5100987428 /* LaunchScreen.storyboard in Resources */,
+				12AD38DA20203E5100987428 /* Assets.xcassets in Resources */,
+				12AD38D820203E5100987428 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AD38E120203E5200987428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AD38EC20203E5200987428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12AD38CB20203E5100987428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AD38D520203E5100987428 /* ViewController.swift in Sources */,
+				12AD38D320203E5100987428 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AD38DF20203E5200987428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AD38E820203E5200987428 /* Patrick_Localization_RtoLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AD38EA20203E5200987428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AD38F320203E5200987428 /* Patrick_Localization_RtoLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12AD38E520203E5200987428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12AD38CE20203E5100987428 /* Patrick_Localization_RtoL */;
+			targetProxy = 12AD38E420203E5200987428 /* PBXContainerItemProxy */;
+		};
+		12AD38F020203E5200987428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12AD38CE20203E5100987428 /* Patrick_Localization_RtoL */;
+			targetProxy = 12AD38EF20203E5200987428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12AD38D620203E5100987428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12AD38D720203E5100987428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12AD38DB20203E5100987428 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12AD38DC20203E5100987428 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12AD38F520203E5200987428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12AD38F620203E5200987428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12AD38F820203E5200987428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Patrick_Localization_RtoL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Patrick-Localization-RtoL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12AD38F920203E5200987428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Patrick_Localization_RtoL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Patrick-Localization-RtoL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12AD38FB20203E5200987428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Patrick_Localization_RtoLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Patrick-Localization-RtoLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Patrick_Localization_RtoL.app/Patrick_Localization_RtoL";
+			};
+			name = Debug;
+		};
+		12AD38FC20203E5200987428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Patrick_Localization_RtoLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Patrick-Localization-RtoLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Patrick_Localization_RtoL.app/Patrick_Localization_RtoL";
+			};
+			name = Release;
+		};
+		12AD38FE20203E5200987428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Patrick_Localization_RtoLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Patrick-Localization-RtoLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Patrick_Localization_RtoL;
+			};
+			name = Debug;
+		};
+		12AD38FF20203E5200987428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Patrick_Localization_RtoLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Patrick-Localization-RtoLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Patrick_Localization_RtoL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12AD38CA20203E5100987428 /* Build configuration list for PBXProject "Patrick_Localization_RtoL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AD38F520203E5200987428 /* Debug */,
+				12AD38F620203E5200987428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12AD38F720203E5200987428 /* Build configuration list for PBXNativeTarget "Patrick_Localization_RtoL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AD38F820203E5200987428 /* Debug */,
+				12AD38F920203E5200987428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12AD38FA20203E5200987428 /* Build configuration list for PBXNativeTarget "Patrick_Localization_RtoLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AD38FB20203E5200987428 /* Debug */,
+				12AD38FC20203E5200987428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12AD38FD20203E5200987428 /* Build configuration list for PBXNativeTarget "Patrick_Localization_RtoLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AD38FE20203E5200987428 /* Debug */,
+				12AD38FF20203E5200987428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12AD38C720203E5100987428 /* Project object */;
+}
