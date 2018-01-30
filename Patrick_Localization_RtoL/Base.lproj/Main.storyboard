@@ -48,11 +48,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Xn-SA-0N1">
+                                <rect key="frame" x="16" y="185" width="261" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="261" id="qFt-AZ-ypl"/>
+                                    <constraint firstAttribute="height" constant="30" id="rQg-c4-Ide"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="7Xn-SA-0N1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="62v-qI-udf"/>
                             <constraint firstItem="wA0-xp-frU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9Of-DB-SRQ"/>
                             <constraint firstItem="Ejn-ZQ-cGa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9uK-Uz-8H2"/>
+                            <constraint firstItem="7Xn-SA-0N1" firstAttribute="top" secondItem="Ejn-ZQ-cGa" secondAttribute="bottom" constant="24" id="Yd1-yb-fbz"/>
                             <constraint firstItem="wA0-xp-frU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lW0-Ew-TXP"/>
                             <constraint firstItem="Ejn-ZQ-cGa" firstAttribute="top" secondItem="wA0-xp-frU" secondAttribute="bottom" constant="75" id="s4m-ya-zre"/>
                             <constraint firstItem="wA0-xp-frU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xIB-qU-RyJ"/>

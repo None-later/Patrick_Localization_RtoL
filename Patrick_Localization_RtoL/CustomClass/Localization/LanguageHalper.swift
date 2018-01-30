@@ -16,6 +16,14 @@ enum LanguageIdEnum:String {
     case arabic = "ar"
 }
 
+import Foundation
+import UIKit
+extension UIApplication {
+    class func isRTL() -> Bool{
+        return UIApplication.shared.userInterfaceLayoutDirection == .rightToLeft
+    }
+}
+
 struct LLanguage{
     
     static let APPLE_LANGUAGE_KEY = "AppleLanguages"
@@ -80,9 +88,9 @@ class LLocalizer {
         //Navigation Back Button Mirroring.
         MethodSwizzleGivenClassName(cls: UIApplication.self, originalSelector: #selector(getter: UIApplication.userInterfaceLayoutDirection), overrideSelector: #selector(getter: UIApplication.cstm_userInterfaceLayoutDirection))
         
-//        MethodSwizzleGivenClassName(cls: UITextField.self, originalSelector: #selector(UITextField.layoutSubviews), overrideSelector: #selector(UITextField.cstmlayoutSubviews))
+        MethodSwizzleGivenClassName(cls: UITextField.self, originalSelector: #selector(UITextField.layoutSubviews), overrideSelector: #selector(UITextField.cstmlayoutSubviews))
         
-//        MethodSwizzleGivenClassName(cls: UILabel.self, originalSelector: #selector(UILabel.layoutSubviews), overrideSelector: #selector(UILabel.cstmlayoutSubviews))
+        MethodSwizzleGivenClassName(cls: UILabel.self, originalSelector: #selector(UILabel.layoutSubviews), overrideSelector: #selector(UILabel.cstmlayoutSubviews))
     }
 }
 
@@ -156,6 +164,50 @@ func MethodSwizzleGivenClassName(cls: AnyClass, originalSelector: Selector, over
         class_replaceMethod(cls, overrideSelector, method_getImplementation(origMethod), method_getTypeEncoding(origMethod));
     } else {
         method_exchangeImplementations(origMethod, overrideMethod);
+    }
+}
+
+
+extension UILabel {
+    @objc public func cstmlayoutSubviews() {
+        self.cstmlayoutSubviews()
+        if self.isKind(of: NSClassFromString("UITextFieldLabel")!) {
+            return // handle special case with uitextfields
+        }
+        if self.tag <= 0  {
+            if UIApplication.isRTL()  {
+                if self.textAlignment == .right {
+                    return
+                }
+            } else {
+                if self.textAlignment == .left {
+                    return
+                }
+            }
+        }
+        if self.tag <= 0 {
+            if UIApplication.isRTL()  {
+                self.textAlignment = .right
+            } else {
+                self.textAlignment = .left
+            }
+        }
+    }
+}
+
+
+extension UITextField {
+    @objc public func cstmlayoutSubviews() {
+        self.cstmlayoutSubviews()
+        if self.tag <= 0 {
+            if UIApplication.isRTL()  {
+                if self.textAlignment == .right { return }
+                self.textAlignment = .right
+            } else {
+                if self.textAlignment == .left { return }
+                self.textAlignment = .left
+            }
+        }
     }
 }
 
